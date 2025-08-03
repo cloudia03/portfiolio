@@ -1,0 +1,43 @@
+h1 {
+  color: #405f91;
+  text-align: center;
+  -webkit-text-stroke: 3px #21304a;
+  font-size: 6rem;  
+  animation: gradient 15s ease infinite;
+}
+
+body {
+  font-family: Trebuchet MS; sans-serif;
+  background: linear-gradient(-90deg, #405f91, #d0ddf2);
+  text-align: center;
+  font-size: 2rem; 
+  margin: 0 auto;
+  color: #21304a;
+  -webkit-text-stroke: 1px #405f91;
+}
+
+a.visited { 
+  color: inherit;
+  -webkit-text-stroke: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  color: pink;
+}
+
+a.aboutme {
+  position: absolute;
+  top: 15px;
+  left: 15px; 
+  color: inherit;
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-align: left;
+  -webkit-text-stroke: 1px #405f91;
+}
+
+a.aboutme:hover {
+  color: pink;
+}
+

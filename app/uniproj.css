@@ -1,0 +1,30 @@
+body {
+  background-color: #6a83ad;
+  font-family: Trebuchet MS; sans-serif;
+  -webkit-text-stroke: 0.5px #1e2138;
+}
+
+h2 {
+  color: white;
+}
+
+.visited { 
+  color: pink;
+  -webkit-text-stroke: inherit;
+  text-decoration: none;
+}
+
+svg {
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+svg:hover {
+  color: pink;
+}
+
+img {
+  filter: brightness(50%); /* Darkens the image to 50% brightness */
+}
